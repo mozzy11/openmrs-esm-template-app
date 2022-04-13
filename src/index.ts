@@ -86,6 +86,11 @@ function setupOpenMRS() {
         ),
         slot: "Boxes",
       },
+      {
+        id: "hello-link",
+        load: getAsyncLifecycle(() => import("./hellolink"), options),
+        slot: "top-nav-actions-slot",
+      },
     ],
   };
 }

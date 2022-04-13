@@ -20,9 +20,9 @@ own microfrontend.
 yarn  # to install dependencies
 yarn start  # to run the dev server
 ```
+Activate the dev tools in the running server and put `@openmrs/esm-template-app` as module name and  `http://localhost:8081/openmrs-esm-template-app.js` as url  in the running server
 
-Once it is running, a browser window
-should open with the OpenMRS 3 application. Log in and then navigate to
+. Log in and then navigate to
 `/openmrs/spa/hello`.
 
 ## Adapting the code
